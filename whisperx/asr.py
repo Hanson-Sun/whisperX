@@ -29,7 +29,7 @@ def load_model(whisper_arch,
                asr_options=None,
                language : Optional[str] = None,
                vad_options=None,
-               model : Optional[WhisperModel] = None,
+               model = None,
                task="transcribe",
                download_root=None,
                threads=4):
